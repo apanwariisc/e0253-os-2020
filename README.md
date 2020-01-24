@@ -18,7 +18,7 @@ Parameters:
 -----------
 All executables accept three parameters: <br />
 ```
-t: Timeout (in seconds)
+t: Timeout (in seconds).
 n: Number of elements in the buffer. Use it to configure program size.
 s: syscall number for my_precious. This depends on your kernel version. Irrelevant for fork. 
 ```
