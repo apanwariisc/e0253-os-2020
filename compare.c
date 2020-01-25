@@ -1,9 +1,10 @@
 #include "header.h"
 
-int main()
+int main(int argc, char *argv[])
 {
 	int perf_fork, perf_context;
 
+	init_params(argc, argv);
 	perf_fork = run_fork();
 	printf("Baseline(fork) Throughput:%15d\n", perf_fork);
 	perf_context = run_context();
